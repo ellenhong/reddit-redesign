@@ -133,23 +133,24 @@ body {
 	background: white;
 	width: 220px;
 	height: 30px;
-	float: right;
-	margin-right: 100px;
 	margin-top: -80px;
 	opacity: 0.3;
 	z-index: -1;
 	cursor: text;
+	position: absolute;
+	display: block;
+	margin-left: 1050px;
 }
 
 #searchimg {
 	height: 27px;
 	opacity: 0.8;
-	float: right;
-	margin-right: 285px;
 	margin-top: -77px;
 	filter: invert(100%);
 	-webkit-filter: invert(100%);
 	-moz-filter: invert(100%);
+	margin-left: 1058px;
+	position: absolute;
 }
 
 #top-side-buttons {
